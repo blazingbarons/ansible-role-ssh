@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Sam Hamilton
+  description: Ansible SSH Role
+  company: Blazing Barons
+  issue_tracker_url: https://github.com/blazingbarons/ansible-role-ssh/issues
+  license: Apache
+  min_ansible_version: 1.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+    - name: Debian
+      versions:
+        - jessie
+    - name: EL
+      versions:
+        - 6
+        - 7
+  galaxy_tags:
+    - system
+    - ntp
+dependencies: []
