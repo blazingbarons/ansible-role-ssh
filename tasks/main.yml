@@ -12,4 +12,4 @@
     - restart openssh-server
 
 - name: ensure openssh-server is running
-  service: name=ssh state=running enabled=yes
+  service: name=ssh state=started enabled=yes
